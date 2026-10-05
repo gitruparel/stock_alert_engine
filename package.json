@@ -1,0 +1,11 @@
+{
+  "name": "stock-alert-engine",
+  "version": "1.0.0",
+  "description": "Automated Long-Term Stock Filter & Alert Prototype for Indian Markets (NSE/BSE)",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "test": "node backend/test/engine.test.js",
+    "build": "cd frontend && npm run build",
+    "dev": "cd backend && node src/server.js"
+  }
+}
